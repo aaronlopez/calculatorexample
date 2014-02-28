@@ -47,6 +47,7 @@
     UIButton * button=[[UIButton alloc] init];
     [button setTitle:@"1" forState:UIControlStateNormal];
     
+    
     [self.calculator numberPressed:button];
     [button setTitle:@"+" forState:UIControlStateNormal];
     
